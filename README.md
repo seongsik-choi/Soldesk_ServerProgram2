@@ -19,4 +19,7 @@ ___
   * **JSP는 실행 시 Servlet class로 변경되어 실행, 출력목적이 아닌 대부분 처리 목적(정확한 처리)**  
   * **Servlet은 자동화 문제로 불편함 Spring으로 자동화 문제 해결**
   * **Servlet code는 doGet, doPost method를 명시하여 src에 mapping**  
-* 0318 :  
+* 0318 : [02] Setvlet에서 JSP form으로 데이터 보내기
+  * **setAttritube, getAttritube를 JSP 로직 숨김(Servlet으로 실행되는 것 처럼 보임)**  
+___ 
+* 0319 : [03] JSP Model 2(MVC) 개론, Model/JSP View가 결합된 MVC Controller version 1.0   
