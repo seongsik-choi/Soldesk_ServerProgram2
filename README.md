@@ -4,7 +4,7 @@
 ├─.settings    <-- Eclipse에서 관리  
 ├─build  
 │  └─classes  
-│      └─jsp_test  <-- 컴파일된 JAVA class + servlet class
+│      └─jsp_test  <-- 컴파일된 JAVA class + servlet class  
 ├─src  
 │  └─jsp_test      <-- JAVA 소스  
 └─WebContent       <-- Web Service를 위한 dic  
