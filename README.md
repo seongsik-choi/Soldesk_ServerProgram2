@@ -23,8 +23,8 @@ ___
   * **setAttritube, getAttritube를 JSP 로직 숨김(Servlet으로 실행되는 것 처럼 보임)**  
 ___ 
 * 0318 복습 + 정리  
- * **Q1) Stduy2.java, FestivalReq.java가 java class 파일이지만 web상에서 실행되는 이유**  
- * **A1) 부모클래스인 HttpServlet에 doGet, doPost 함수가 있으며, HttpServletRequest와 HttpServletResponse  를 @Override하여 사용**  
+  * **Q1) Stduy2.java, FestivalReq.java가 java class 파일이지만 web상에서 실행되는 이유**  
+  * **A1) 부모클래스인 HttpServlet에 doGet, doPost 함수가 있으며, HttpServletRequest와 HttpServletResponse  를 @Override하여 사용**  
  * **Q2) 서블릿은 클래스인데 실행시 웹에서 실행되려면 url을 어디에 선언?**  
  * **A2) @WebServlet("/form/festival_req.seoul")     // annotation(특정 기능을 갖는 선언문의 일종)**  
  * **Q3) private static final long serialVersionUID = 1L; 의 의미**  
