@@ -63,7 +63,7 @@ ___
 ├─.settings    <-- Eclipse에서 관리  
 ├─Spring Elements  
 ├─Java Resources(src)  
-   └─src/main/java/sts/basic/test      <-- JAVA class 파일
+   └─src/main/java/sts/basic/test      <-- JAVA class 파일  
    └─sts_basic/src/main/webapp             : Eclipse의 WebContent와 동일 기능  
    └─sts_basic/src/main/webapp/resources     : CSS, JS, Image등의 리소스 저장 폴더  
    └─sts_basic/src/main/webapp/WEB-INF       : Web 환경 설정 XML   
