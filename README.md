@@ -65,11 +65,11 @@ ___
 ├─Java Resources  
 │  └─src\main\java\sts\basic\test      <-- JAVA class 파일
 └─src       <-- Web Service를 위한 dic  
-   └─/sts_basic/src/main/webapp             : Eclipse의 WebContent와 동일 기능  
-   └─/sts_basic/src/main/webapp/resources     : CSS, JS, Image등의 리소스 저장 폴더  
-   └─/sts_basic/src/main/webapp/WEB-INF       : Web 환경 설정 XML   
-   └─/sts_basic/src/main/webapp/WEB-INF/spring  : Spring 환경 설정 XML  
-   └─/sts_basic/src/main/webapp/WEB-INF/views   : JSP file 저장 폴더 
+     └─/sts_basic/src/main/webapp             : Eclipse의 WebContent와 동일 기능  
+     └─/sts_basic/src/main/webapp/resources     : CSS, JS, Image등의 리소스 저장 폴더  
+     └─/sts_basic/src/main/webapp/WEB-INF       : Web 환경 설정 XML   
+     └─/sts_basic/src/main/webapp/WEB-INF/spring  : Spring 환경 설정 XML  
+     └─/sts_basic/src/main/webapp/WEB-INF/views   : JSP file 저장 폴더 
 ___ 
 * 0322 : [06] Maven, Spring기반 MVC의 원리, STS Spring MVC의 개발 구조 분석, Spring 4.3.23~26 설정, JDK 1.8.0, Servlet 3.1 설정, Spring  Tools 3 Add-On 설치 ★  
   * **흐름 : JAVA -> JSP -> MVC -> Spring Legacy(Spring 구형 개발-18년도) -> Spring Boot(Spring 개발 2019-)**  
