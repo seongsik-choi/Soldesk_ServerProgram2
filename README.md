@@ -58,7 +58,21 @@ ___
   * 1) Controller3Model.java의 request 객체 = doPost()의 request 객체  
   * 2) doPost()의 request 객체 = setData()의 request 객체는 결국 같은 메모리, Call By Reference(Return이 필요 NO)   
 ___ 
-* **Spring Legacy**  
+**Spring Legacy**  
+## STS4(Spring Tool Suite4) Tree Structure  
+  C:/dic/WS_FRAME/mvc  
+├─.settings    <-- Eclipse에서 관리  
+├─build  
+│  └─classes  
+│      └─mvc  <-- 컴파일된 JAVA class  
+├─src  
+│  └─dev.form      <-- JAVA 소스 + Servlet  
+└─WebContent       <-- Web Service를 위한 dic  
+    ├─form           <-- JSP  
+    ├─META-INF  
+    └─WEB-INF     <-- web.xml등 환경 설정 파일  
+        └─lib         <-- 데이터베이스 Driver등 저장     
+___ 
 * 0322 : [06] Maven, Spring기반 MVC의 원리, STS Spring MVC의 개발 구조 분석, Spring 4.3.23~26 설정, JDK 1.8.0, Servlet 3.1 설정, Spring  Tools 3 Add-On 설치 ★  
   * **흐름 : JAVA -> JSP -> MVC -> Spring Legacy(Spring 구형 개발-18년도) -> Spring Boot(Spring 개발 2019-)**  
 **▶ 개발자가 알아야하는 Spring 핵심 루틴**  
