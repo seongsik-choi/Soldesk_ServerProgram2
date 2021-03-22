@@ -20,7 +20,7 @@ ___
   * Servlet은 자동화 문제로 불편함 Spring으로 자동화 문제 해결  
   * Servlet code는 doGet, doPost method를 명시하여 src에 mapping  
 * 0318 : [02] Setvlet에서 JSP form으로 데이터 보내기
-  * **setAttritube, getAttritube를 JSP 로직 숨김(Servlet으로 실행되는 것 처럼 보임)**  
+  * setAttritube, getAttritube를 JSP 로직 숨김(Servlet으로 실행되는 것 처럼 보임)  
 ___ 
 * 0318 복습 + 정리  
   * Q1) Stduy2.java, FestivalReq.java가 java class 파일이지만 web상에서 실행되는 이유  
@@ -54,7 +54,7 @@ ___
   * .jsp Model1 : form.jsp -> proc.jsp -> beans.java : model1은 디자인과 처리과 섞여있어 복잡(한사람이 여러 작업하는 꼴)  
   * .jsp Model2(MVC) : Controller3.java의 doGet() -> form.jsp -> post submit -> Controller3.java의 doPost() -> Beans -> proc.jsp  
   * Controller3Model.java의 request 객체 = doPost()의 request 객체  
-  * doPost()의 request 객체 = setData()의 request 객체는 결국 같은 메모리, Call By Reference(Return이 필요 NO)    
+  * doPost()의 request 객체 = setData()의 request 객체는 결국 같은 메모리, Call By Reference(Return이 필요 NO)   
 * 0320 :  
 * 0320 : 
 * 0320 : 
