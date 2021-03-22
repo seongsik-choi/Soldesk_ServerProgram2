@@ -59,7 +59,7 @@ ___
   * 2) doPost()의 request 객체 = setData()의 request 객체는 결국 같은 메모리, Call By Reference(Return이 필요 NO)   
 ___ 
 ## STS4(Spring Tool Suite4) Tree Structure : Spring Legacy  
-  C:/dic/WS_FRAME/mvc  
+  C:/dic/WS_FRAME/sts_basic    
 ├─.settings    <-- Eclipse에서 관리  
 ├─Spring Elements  
 ├─Java Resources(src)  
