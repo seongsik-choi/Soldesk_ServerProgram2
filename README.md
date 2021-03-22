@@ -6,7 +6,7 @@
 │  └─classes  
 │      └─mvc  <-- 컴파일된 JAVA class  
 ├─src  
-│  └─dev.form      <-- JAVA 소스 + servlet class   
+│  └─dev.form      <-- JAVA 소스 + Servlet  
 └─WebContent       <-- Web Service를 위한 dic  
     ├─form           <-- JSP  
     ├─META-INF  
