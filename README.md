@@ -51,9 +51,9 @@ ___
   * **ex)Controller2ex.java(Controller) & view2ex.jsp(View)로 나뉘는 MVC 2.0 예제**  
 ___ 
 * 0320 : 
-  * **.jsp Model1 : form.jsp -> proc.jsp -> beans.java : model1은 디자인과 처리과 섞여있어 복잡(한사람이 여러 작업하는 꼴)**  
-  * **.jsp Model2(MVC) : Controller3.java의 doGet() -> form.jsp -> post submit -> Controller3.java의 doPost() -> Beans -> proc.jsp**  
-  * **Controller3Model.java의 request 객체 = doPost()의 request 객체**  
-  * **doPost()의 request 객체 = setData()의 request 객체는 결국 같은 메모리, Return이 필요 NO**  
+  * .jsp Model1 : form.jsp -> proc.jsp -> beans.java : model1은 디자인과 처리과 섞여있어 복잡(한사람이 여러 작업하는 꼴)  
+  * .jsp Model2(MVC) : Controller3.java의 doGet() -> form.jsp -> post submit -> Controller3.java의 doPost() -> Beans -> proc.jsp  
+  * Controller3Model.java의 request 객체 = doPost()의 request 객체  
+  * doPost()의 request 객체 = setData()의 request 객체는 결국 같은 메모리, Return이 필요 NO  
 * 0320 :  
 * 
