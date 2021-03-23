@@ -137,11 +137,7 @@ public class CalcCont {
     ModelAndView mav = new ModelAndView(); 
     mav.addObject("msg", "빼기");          
     mav.addObject("result", no1 - no2);  
-    
-    // /src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml
-    // 해당 주석은 servlet-context.xml의 구문
-    // <beans:property name="prefix" value="/WEB-INF/views/" />
-    // <beans:property name="suffix" value=".jsp" />
+
     mav.setViewName("/calc/calc1");  // /WEB-INF/views/calc/calc1.jsp
     return mav;
   }
