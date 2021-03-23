@@ -73,12 +73,12 @@ ___
 * 0322 : [06] Maven, Spring기반 MVC의 원리, STS Spring MVC의 개발 구조 분석, Spring 4.3.23~26 설정, JDK 1.8.0, Servlet 3.1 설정, Spring  Tools 3 Add-On 설치 ★  
   * **흐름 : JAVA -> JSP -> MVC -> Spring Legacy(Spring 구형 개발-18년도) -> Spring Boot(Spring 개발 2019-)**  
   * **▶ 개발자가 알아야하는 Spring 핵심 루틴**  
-  * **① Request : Chrome에서 주소 입력 후 요청 -> Dispacter Servlet : 사용자의 요청을 받음**  
-  * **② HanlerMapping : GET or POST 방식의 구분하여 해당하는 메소드등을 검색**  
-  * **③ Controller : 개발자가 제작한 메소드 실행, request에 출력 데이터 저장**  
-  * **④ Model : DBMS등에 접속하여 데이터 처리**  
-  * **⑤ View : Model의 처리 결과를 출력, Dispacter Sevlet이 최종 출력할 View JSP를 결정**  
-  * **⑥ 최종적으로 : JSP or HTML이 출력**  
+  * ① Request : Chrome에서 주소 입력 후 요청 -> Dispacter Servlet : 사용자의 요청을 받음  
+  * ② HanlerMapping : GET or POST 방식의 구분하여 해당하는 메소드등을 검색  
+  * ③ Controller : 개발자가 제작한 메소드 실행, request에 출력 데이터 저장  
+  * ④ Model : DBMS등에 접속하여 데이터 처리  
+  * ⑤ View : Model의 처리 결과를 출력, Dispacter Sevlet이 최종 출력할 View JSP를 결정  
+  * ⑥ 최종적으로 : JSP or HTML이 출력  
 * 0322 : [07] STS Spring project 구조  
 * 0322 : [08][과제] sts_env STS Spring project 생성 실습  
 ___ 
