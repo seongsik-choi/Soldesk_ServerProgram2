@@ -88,9 +88,10 @@ ___
   * **▶ Context Path: <%=request.getContextPath()   -> 출력 ->ContextPath: /test**
   * ① 패키지명 출력 (Legacy는 ex)sts.basic.test일 경우, 3번째 프로젝트명 사용)
   * **▶JSP와 EL의 사용 차이(request 객체의 호출 차이)**
-  * ① JSP : request.getAttribute("name)      ==  EL : ${requestScope.name} or ${name}
+  * ① JSP : request.getAttribute("name")      ==  EL : ${requestScope.name} or ${name}
   * ② JSP : request.getParameter("money") == EL : ${param.money}
   * ③ JSP : 생성된객체.getMovie()             == EL : ${dto.movie }
+  * ④ JSP : request.setAttribute("no1", 100); -> int no1 = (Integer)request.getAttribute("no1"); // Object형 -> Int형 형변환
   * **▶** 
   * ①  
   * **▶** 
