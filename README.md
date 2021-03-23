@@ -87,7 +87,6 @@ ___
   * **① 보안문제(웹 상 JAVA Code  노출) : ex) JAVA코드 오류시 코드노출 + 주석노출**
   * **▶ Context Path: <%=request.getContextPath()   -> 출력 ->ContextPath: /test**
   * **① 패키지명 출력 (Legacy는 ex)sts.basic.test일 경우, 3번째 프로젝트명 사용)**
-
   * **▶ ELDTO dto = new ELDTO();   // import한 ELDTO class 사용해 객체 생성**
   * **▶ request.setAttribute("dto", dto);    // 데이터를 저장(key 값, 저장된 데이터)**
   * **▶ ELDTO eldto = (ELDTO)request.getAttribute("dto");   // 데이터 가져오기 Type 매칭**
