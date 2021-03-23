@@ -137,7 +137,7 @@ public class CalcCont {
 <DIV class='content'>
   <H1>계산기(Scriptlet calc1.jsp)</H1>
   <%= request.getAttribute("msg")%> 계산기<br>	<!-- setAttritube(addObject) -->
-  수1: <%=request.getParameter("no1") %><br>		<!--  getParameter : url로 입력 ?no1=100&no2=50-->
+  수1: <%=request.getParameter("no1") %><br>	<!--  getParameter : url로 입력 ?no1=100&no2=50-->
   수2: <%=request.getParameter("no2") %><br>
   결과: <%= request.getAttribute("result")%> <br><br> <!-- setAttritube(addObject) -->
 </DIV> <!-- content END -->
