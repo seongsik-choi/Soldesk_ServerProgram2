@@ -64,11 +64,11 @@ ___
 ├─Spring Elements  
 ├─Java Resources(src)  
    └─src/main/java/sts/basic/test      <-- JAVA class 파일  
-   └─src/main/webapp             : ★Eclipse의 WebContent와 동일 기능★ 하위 폴더 ex)form 등   
+   └─src/main/webapp             : ★Eclipse의 WebContent와 동일 기능, JSP의 단독 실행 가능★    
    └─src/main/webapp/resources     : CSS, JS, Image등의 리소스 저장 폴더  
    └─src/main/webapp/WEB-INF       : Web 환경 설정 XML + 실행시 spring이 반드시 필요  
    └─src/main/webapp/WEB-INF/spring  : Spring 환경 설정 XML  
-   └─src/main/webapp/WEB-INF/views   : JSP file 저장 폴더 
+   └─src/main/webapp/WEB-INF/views   : ★JSP file 저장 폴더, JSP의 단독 실행 불가능★ 
 ___ 
 * 0322 : [06] Maven, Spring기반 MVC의 원리, STS Spring MVC의 개발 구조 분석, Spring 4.3.23~26 설정, JDK 1.8.0, Servlet 3.1 설정, Spring  Tools 3 Add-On 설치 ★  
   * **▶흐름 : JAVA -> JSP -> MVC -> Spring Legacy(Spring 구형 개발-18년도) -> Spring Boot(Spring 개발 2019-)**  
@@ -93,12 +93,9 @@ ___
   * ③ JSP : 생성된객체.getMovie()             == EL : ${dto.movie }
   * ④ JSP : request.setAttribute("no1", 100); -> int no1 = (Integer)request.getAttribute("no1"); // Object형 -> Int형 형변환
   * **▶ex)exam1.jsp(Get방식의 getParameter 사용) / exam2.jsp(Post방식의 Set,getAttritube 사용)**
-  * ①  
-  * **▶** 
-  * ①  
-
 * 0323 : [10] Spring MVC Annotation(@Controller, @RequestMapping) 실습, 더하기 연산
 * **▶ Spring Legacy Project -> Spring Legacy Project 생성 : sts_calc / dev.mvc.calc** 
+* **▶ex) CallcCont.java(Controller(Action) 구현) / calc1.jsp(View 구현)** 
 ~~~
 // CallcCont.java
 package dev.mvc.calc; // add method와 sub method 
@@ -166,5 +163,6 @@ public class CalcCont {
 </DIV> <!-- content END -->
 </DIV> <!-- container END -->
 ~~~
+  * **▶** 
+  * ①  
 
-* 0323 :  
