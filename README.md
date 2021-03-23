@@ -19,10 +19,10 @@ ___
   * ① JSP는 실행 시 Servlet class로 변경되어 실행, 출력목적이 아닌 대부분 처리 목적(정확한 처리)  
   * ② Servlet은 자동화 문제로 불편함 Spring으로 자동화 문제 해결  
   * ③ Servlet code는 doGet, doPost method를 명시하여 src에 mapping  
-* 0318 : [02] Setvlet에서 JSP form으로 데이터 보내기
+* **0318 : [02] Setvlet에서 JSP form으로 데이터 보내기**
   * ▶ setAttritube, getAttritube를 JSP 로직 숨김(Servlet으로 실행되는 것 처럼 보임)  
 ___ 
-* **0318 복습 + 정리**  
+* **0318 복습 + 정리**
   * ▶ Stduy2.java, FestivalReq.java가 java class 파일이지만 web상에서 실행되는 이유  
   * A1) 부모클래스인 HttpServlet에 doGet, doPost 함수가 있으며, HttpServletRequest와 HttpServletResponse  를 @Override하여 사용  
   * ▶ 서블릿은 클래스인데 실행시 웹에서 실행되려면 url을 어디에 선언?  
@@ -46,11 +46,11 @@ ___
   * ▶ 서블릿 실행시 GET방식이 호출되는 이유는? 
   * A10) http://localhost:9090/mvc/form/study2 주소가 브러우저에 입력되어 실행되기 때문에 GET 방식으로처리 + GET 방식(Broswer에 주소를 입력) +POST방식(form에서 진행)  
 
-* **0319 : [03] JSP Model 2(MVC) 개론, Model/JSP View가 결합된 MVC Controller version 1.0**   
-* **0319 : [04] JSP View가 분리된 MVC Controller version 2.0 실습(Servlet(Controller)<->JSP(View)**  
+* **0319 : [03] JSP Model 2(MVC) 개론, Model/JSP View가 결합된 MVC Controller version 1.0**
+* **0319 : [04] JSP View가 분리된 MVC Controller version 2.0 실습(Servlet(Controller)<->JSP(View)**
   * **▶ex)Controller2ex.java(Controller) & view2ex.jsp(View)로 나뉘는 MVC 2.0 예제**  
 ___ 
-* **0322 : [05] Model, JSP View가 분리된 MVC Controller version 3.0 실습**  
+* **0322 : [05] Model, JSP View가 분리된 MVC Controller version 3.0 실습**
   * ▶jsp Model1 : form.jsp -> proc.jsp -> beans.java : model1은 디자인과 처리과 섞여있어 복잡(한사람이 여러 작업하는 꼴)  
   * ▶jsp Model2(MVC) : Controller3.java의 doGet() -> form.jsp -> post submit -> Controller3.java의 doPost() -> Beans -> proc.jsp
   * **▶ex)Controller3.java & Controller3Model.java & form, proc.jsp 로 나뉘는 MVC 2.0 예제**  
@@ -70,7 +70,7 @@ ___
    └─src/main/webapp/WEB-INF/spring  : Spring 환경 설정 XML  
    └─src/main/webapp/WEB-INF/views   : ★JSP file 저장 폴더, JSP의 단독 실행 불가능★ 
 ___ 
-* **0322 : [06] Maven, Spring기반 MVC의 원리, STS Spring MVC의 개발 구조 분석, Spring 4.3.23~26 설정, JDK 1.8.0, Servlet 3.1 설정, Spring  Tools 3 Add-On 설치 ★**  
+* **0322 : [06] Maven, Spring기반 MVC의 원리, STS Spring MVC의 개발 구조 분석, Spring 4.3.23~26 설정, JDK 1.8.0, Servlet 3.1 설정, Spring  Tools 3 Add-On 설치 ★**
   * **▶흐름 : JAVA -> JSP -> MVC -> Spring Legacy(Spring 구형 개발-18년도) -> Spring Boot(Spring 개발 2019-)**  
   * **▶ 개발자가 알아야하는 Spring 핵심 루틴**  
   * ① Request : Chrome에서 주소 입력 후 요청 -> Dispacter Servlet : 사용자의 요청을 받음  
