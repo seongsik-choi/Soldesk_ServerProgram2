@@ -92,10 +92,14 @@ ___
   * ② JSP : request.getParameter("money") == EL : ${param.money}
   * ③ JSP : 생성된객체.getMovie()             == EL : ${dto.movie }
   * ④ JSP : request.setAttribute("no1", 100); -> int no1 = (Integer)request.getAttribute("no1"); // Object형 -> Int형 형변환
-  * **▶** 
+  * **▶ex)exam1.jsp(Get방식의 getParameter 사용) / exam2.jsp(Post방식의 Set,getAttritube 사용)**
   * ①  
   * **▶** 
   * ①  
 
-* 0323 :  
+* 0323 : [10] Spring MVC Annotation(@Controller, @RequestMapping) 실습, 더하기 연산
+* **▶ Spring Legacy Project -> Spring Legacy Project 생성 : sts_calc / dev.mvc.calc** 
+~~~
+int a;
+~~~
 * 0323 :  
