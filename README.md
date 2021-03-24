@@ -174,7 +174,7 @@ ___
 * **0324 : [11] Image, JS, CSS등 정적(static) resource의 사용, 이미지 출력, sts_calc**
   * **▶webapp/resources/calc 폴더에 이미지 저장 : webapp은 jsp 없이 단독 실행이 가능**
   * **▶A) servlet-context.xml의 설정 때문에 resources 내 정적 리소스만 사용 가능!** 
-  * ① 선언 : <rsources mapping="/resources/**" location="/resources/" />
+  * ① 선언 : resources mapping="/resources/**" location="/resources/" /
   * ② static resources(정적 리소스, 이미지 출력)
   * ③ 검색 서버 등 외부의 서버에 이미지 등 노출 방지
 ~~~
