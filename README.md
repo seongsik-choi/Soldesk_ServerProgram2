@@ -168,8 +168,6 @@ Scriptlet 방식과 EL 방식의 처리
 </DIV> <!-- content END -->
 </DIV> <!-- container END -->
 ~~~
-  * **▶** 
-  * ①  
 ___ 
 * **0324 : [11] Image, JS, CSS등 정적(static) resource의 사용, 이미지 출력, sts_calc**
   * **▶webapp/resources/calc 폴더에 이미지 저장 : webapp은 jsp 없이 단독 실행이 가능**
