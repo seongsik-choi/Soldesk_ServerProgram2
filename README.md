@@ -171,5 +171,9 @@ Scriptlet 방식과 EL 방식의 처리
   * **▶** 
   * ①  
 ___ 
-* **0324 : [11] Spring MVC Annotation(@RequestParam, Form값의 자동 추출) 실습, GET/POST 방식의 분리**
+* **0324 : [11] Image, JS, CSS등 정적(static) resource의 사용, 이미지 출력, sts_calc**
+  * **▶A) servlet-context.xml의 설정 때문에 resources 내 정적 리소스만 사용 가능!** 
+  * ① 선언 : <rsources mapping="/resources/**" location="/resources/" />
+  * ② static resources(정적 리소스, 이미지 출력)
+  * ③ 검색 서버 등 외부의 서버에 이미지 등 노출 방지
 * **0324 : **
