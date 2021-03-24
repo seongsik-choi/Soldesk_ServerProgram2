@@ -131,7 +131,7 @@ public class CalcCont {
      개발자가 선언하지 않아도 자동 forward : HandlerMapping이라 부름 
      -> 해당 2 line을 HandlerMapping으로 자동화!
      RequestDispatcher dispatcher = request.getRequestDispatcher("/form/a.jsp"); // .jsp 호출
-     dispatcher.forward(request, response); // request, response 객체가 jsp 전달.
+     dispatcher.forward(request, response); // request, response 객체가 jsp 전달. */
   }
   
   // http://localhost:9090/calc/calc/sub.do?no1=100&no2=50
