@@ -1,0 +1,59 @@
+ /* 
+ 0317
+ index2.html의 style 부분을 css파일로 생성
+  */
+   /* 모든 태그에 적용 */
+  *{
+     font-family: Malgun Gothic; 
+     font-size: 28px; 
+     margin: 0px;  /* top right bottom left */
+     padding: 0px;
+     color: #555555;
+  }  
+
+  .container_main {
+    width: 90%; 
+    margin: 10px auto;
+  }
+  
+  .top_img {
+    width: 100%;
+    height: 200px;
+    background-image: url('/jsp_test/menu/images/top_image.jpg');
+  }
+  
+  .top_menu {
+    position: relative; /* 부모 태그 기준, 화면 상단 기준*/
+    top: 80%; 
+    background-color: rgba(50, 50, 255, 0.3);  /* 0.3: Alpha, 투명도 */  
+    color: white; 
+  }
+  
+  .left_menu {
+    width: 15%;
+    float: left;
+  }
+  
+  .content_body {
+    width: 84%;
+    float: left;
+  }
+ 
+  .bottom_menu {
+    text-align: center; 
+    margin: 20px auto;
+    clear: both;  /* 앞쪽 태그의 float 효과를 제거함. */
+  }
+  
+  .li_none {
+    list-style: none;
+  }
+    
+  .title_line {
+    text-align: left;
+    border-bottom: solid 3px #555555;
+    width: 100%;
+    margin: 20px auto;    
+  }
+  
+  
