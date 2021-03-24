@@ -243,7 +243,7 @@ public class HomeController {
 ---
 * **0324 : [12.1] Spring MVC Annotation(@RequestParam, Form값의 자동 추출) 실습**
   * ▶CalcCont.java(자동형변환) / CalcCont2.java(VO(DTO)객체 생성) 차이
-  * ▶CalcVOjava(Gettee와  Setter) / CalcCont2.java(VO(DTO)객체 생성) / calc_vo.jsp(view부분)
+  * ▶CalcVOjava(Getter와  Setter) / CalcCont2.java(VO(DTO)객체 생성) / calc_vo.jsp(view부분)
 ~~~
 /*
 ▶ CalcVO.java	/ CalcCont2.java  / cacl_vo.jsp
